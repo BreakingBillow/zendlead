@@ -10,7 +10,7 @@ import android.util.Log;
 
 public class MySQLiteHelper extends SQLiteOpenHelper{
 
-	private static final String DATABASE_NAME = "TrackScan.db";
+	private static final String DATABASE_NAME = "ZenLead.db";
 	private static final int DATABASE_VERSION = 3;
 	
 	// table name

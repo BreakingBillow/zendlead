@@ -2,6 +2,6 @@ package com.weiproduct.zenlead.common;
 
 public class Constant {
 
-	public static final String EXTERNALSTORAGEFOLDER = "/TrackScan";
+	public static final String EXTERNALSTORAGEFOLDER = "/ZenLead";
 	
 }
