@@ -35,4 +35,6 @@
     <string name="orderNumber">  订单号</string>
     <string name="nofound">   无法识别</string>
     
+     <string name="namerequired">请填写任务名！</string>
+    
 </resources>

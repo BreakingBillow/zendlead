@@ -126,6 +126,7 @@ public final class R {
         public static final int getTrackingNo=0x7f080016;
         public static final int hello_world=0x7f080002;
         public static final int ignoreRepeat=0x7f080019;
+        public static final int namerequired=0x7f08001d;
         public static final int nofound=0x7f08001c;
         public static final int orderNumber=0x7f08001b;
         public static final int save_task=0x7f08000d;

@@ -120,10 +120,10 @@ public class Utility {
 		String chinaAirPostMailTrackingNumberRegEx = "R[A-Z][0-9]{9}CN";
 
 		if (Pattern.compile(generalOrderNumberRegEx).matcher(inputValue).find()) {
-			return context.getString(R.string.trackingNumber);
+			return context.getString(R.string.orderNumber);
 		} else if (Pattern.compile(chinaAirPostMailTrackingNumberRegEx)
 				.matcher(inputValue).find()) {
-			return context.getString(R.string.orderNumber);
+			return context.getString(R.string.trackingNumber);
 		}
 
 		return context.getString(R.string.nofound);

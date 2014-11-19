@@ -34,5 +34,7 @@
     <string name="trackingNumber">   Tracking Number</string>
     <string name="orderNumber">   Order Number</string>
     <string name="nofound">  No Found</string>
+    
+    <string name="namerequired">Task name required!</string>
 
 </resources>

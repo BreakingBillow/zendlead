@@ -49,7 +49,7 @@ public class NewTaskActivity extends Activity {
 	
 	public void btnStartTask(View view) {
 		if(editTxtTaskName.getText().toString().equals("")) {
-			Utility.showToast(this, "Task name required!");
+			Utility.showToast(this, this.getString(R.string.namerequired));
 			return;
 		}
 				
