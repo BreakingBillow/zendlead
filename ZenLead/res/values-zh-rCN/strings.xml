@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">邮政小包扫描助手</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">你好!</string>
+    <string name="scan_tips">将条形码图片对准扫描框即可自动扫描</string>
+    
+    <string name="action_search">搜索</string>
+    <string name="action_new">新建扫描任务</string>
+    <string name="title_activity_new_task">创建新扫描任务</string>
+    <string name="task_name">任务名称：</string>
+    <string name="task_name_hint">输入任务名</string>
+    <string name="task_time">创建时间：</string>
+    <string name="start_task">开始任务</string>
+    <string name="title_activity_task_detail">新任务详情</string>
+    <string name="total_packages">包裹总数：</string>
+    <string name="save_task">保存任务</string>
+    <string name="search_hint">订单号/追踪号</string>
+    <string name="title_activity_search_result">搜索结果</string>
+	<string name="shipping_method">货运方式:</string>
+	<string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+    <string name="undo">撤消</string>
+    <string name="finish">完成</string>
+    <string name="txtPackage">包裹</string>
+    
+    <string name="getTrackingNo">扫描追踪号</string>
+    <string name="getOrderNo">扫描订单号</string>
+    <string name="wrong">错误</string>
+    <string name="ignoreRepeat">重复再来</string>
+    
+    
+    <string name="trackingNumber">  邮政挂号</string>
+    <string name="orderNumber">  订单号</string>
+    <string name="nofound">   无法识别</string>
+    
+</resources>

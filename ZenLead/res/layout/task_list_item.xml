@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_weight="10"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/txtTaskName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Task Name" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtTaskTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Time" >
+        </TextView>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTaskCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:text="Count" >
+    </TextView>
+    <TextView 
+		android:id="@+id/txtPackage"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:text="@string/txtPackage" >        
+    </TextView>
+
+</LinearLayout>
